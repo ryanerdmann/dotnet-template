@@ -1,0 +1,17 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RepoRoot Condition="$(RepoRoot) == ''">$(MSBuildThisFileDirectory)</RepoRoot>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <EnablePackageVersionOverrideWithoutCentralVersion>false</EnablePackageVersionOverrideWithoutCentralVersion>
+  </PropertyGroup>
+
+</Project>
